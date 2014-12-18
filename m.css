@@ -1,0 +1,28 @@
+body{
+	background-color: #000;
+}
+
+.section1 {
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	vertical-align: center;
+	margin-top: 0vh;
+}
+
+.headpic {
+	height: 50vh;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5vh;
+	display: block;
+}
+
+h1 {
+	font-family: 'josefin slab';
+	font-weight: 300;
+	font-size: 10vh;
+	color: #fff;
+	text-align: center;
+	line-height: 9vh;
+}
