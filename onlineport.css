@@ -16,14 +16,14 @@ body {
 .header {
   height: 22vw;
   width: 100vw;
-  background-color: #000;
+  background-color: #fff;
 }
 
 h1 {
   	font-family: 'josefin slab', serif;
   	font-size: 5.75vw;
   	font-weight: 300;
-    color: #fff;
+    color: #000;
     margin-top: 5.75vw;
     display: inline-block;
   }
