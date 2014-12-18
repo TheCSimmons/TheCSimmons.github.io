@@ -26,3 +26,16 @@ h1 {
 	text-align: center;
 	line-height: 9vh;
 }
+
+.section2 {
+	background-color: #fff;
+}
+
+p {
+	color: #000;
+	font-family: 'raleway';
+	font-weight: 200;
+	text-align: center;
+	font-size: 3vh;
+
+}
