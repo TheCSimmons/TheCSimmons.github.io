@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  height: 22vw;
+  height: 23vw;
   width: 100vw;
   background-color: #fff;
 }
@@ -24,7 +24,7 @@ h1 {
   	font-size: 5.75vw;
   	font-weight: 300;
     color: #000;
-    margin-top: 5.75vw;
+    margin-top: 7vw;
     display: inline-block;
   }
 
@@ -37,25 +37,55 @@ h2 {
     letter-spacing: .25vw;
 }
 
-.about {
-  height: 40vw;
-  width: 100vw;
-  background-color: #E6E7E8;
-  margin-top: 0;
+.line1 {
+  width: 90vw;
+  height: .05vw;
+  background: black;
+  margin-right: auto;
+  margin-left: auto;
+}
+.line2 {
+  width: 90vw;
+  height: .05vw;
+  background: black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: .5vw;
 }
 
+
+.aboutpiccontainer {
+  height: 38vw;
+  width: 38vw;
+  background-color: none;
+  margin-top: 0;
+  display: inline-block;
+  float: left;
+}
+
+.aboutpic {
+  width: 30vw;
+  padding-top: 4vw;
+  padding-left: 4vw;
+}
+
+.abouttextcontainer {
+  height: 38vw;
+  width: 62vw;
+  background-color: none;
+  margin-top: 0;
+  display: inline-block;
+  float: left;
+}
 
 .abouttext {
   font-family: 'raleway';
   font-weight: 100;
   font-size: 1.75vw;
   font-weight: 300;
-  margin-left: 45vw;
-  margin-right: 5vw;
-  display: inline-block;
+  padding-left: 1vw;
+  padding-right: 8vw;
 }
-
-
 
 
 
