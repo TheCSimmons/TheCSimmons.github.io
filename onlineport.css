@@ -20,13 +20,13 @@ body {
 }
 
 h1 {
-  	font-family: 'josefin slab', serif;
-  	font-size: 5.75vw;
-  	font-weight: 300;
-    color: #000;
-    margin-top: 7vw;
-    display: inline-block;
-  }
+	font-family: 'josefin slab', serif;
+	font-size: 5.75vw;
+	font-weight: 300;
+  color: #000;
+  margin-top: 7vw;
+  display: inline-block;
+}
 
 h2 {
     font-family: 'raleway', sans-serif;
@@ -36,23 +36,6 @@ h2 {
     margin-top: -4vw;
     letter-spacing: .25vw;
 }
-
-.line1 {
-  width: 90vw;
-  height: .05vw;
-  background: black;
-  margin-right: auto;
-  margin-left: auto;
-}
-.line2 {
-  width: 90vw;
-  height: .05vw;
-  background: black;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: .5vw;
-}
-
 
 .aboutpiccontainer {
   height: 38vw;
@@ -87,6 +70,57 @@ h2 {
   padding-right: 8vw;
 }
 
+.construction {
+  width: 100vw;
+  height: 23vw;
+  background-color: none;
+  display: inline-block;
+
+}
+
+h3 {
+  font-family: 'raleway', sans-serif;
+  font-size: 3vw;
+  font-weight: 200;
+  color: #000;
+  letter-spacing: .25vw;
+  margin-bottom: -2vw;
+}
+
+h4 {
+  font-family: 'josefin slab', serif;
+  font-size: 2vw;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-family: 'josefin slab', serif;
+  font-size: 2vw;
+  font-weight: 300;
+  color: #000;
+  margin-top: 0vw;
+}
+
+.linkcontainer {
+  width: 25vw;
+  margin-top: -2vw;
+  display: inline-block;
+  float: left;
+  border: black;
+  background-color: none;
+  overflow: hidden;
+
+}
+
+.linktext {
+  font-family: 'raleway', sans-serif;
+  font-size: 2vw;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: .25vw;
+}
 
 
 
@@ -94,6 +128,47 @@ h2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* unvisited link */
+a:link {
+    color: #990000;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #990000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #606060;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #003366;
+    text-decoration: none;
+}
 
 
 
