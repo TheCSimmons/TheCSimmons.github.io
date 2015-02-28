@@ -9,7 +9,7 @@ container {
 }
 
 .sidebar {
-	background-color: #d1d2d4;
+	background-color: none;
 	width: 25vw;
 	height: 80vh;
 	max-height: 1295px;
@@ -17,6 +17,7 @@ container {
 	margin-top: none;
 	padding-top: 5vh;
 	float: left;
+	position: fixed;
 }
 
 .sidebar h1 {
@@ -63,9 +64,10 @@ a:hover {
 }
 
 .scroller {
-	overflow-y: scroll;
-	height: 95vh;
+	width: 74vw;
+	float: right;
 	background-color: white;
+	padding-bottom: 1.5vw;
 
 
 }
@@ -175,27 +177,36 @@ h3 {
 	padding-bottom: 2vw;
 }
 
+.instruct{
+	margin-bottom: .5vw;
+}
+.gallbord {
+	border: 1px solid;
+	height: 40vw;
+	width: 71vw;
+	padding-top: .5vw;
+
+}
+
 footer {
 	background-color: #d1d2d4;
 	text-align: center;
 	width:100vw;
 	padding-top: .75vh;
-	padding-bottom: .5vh;
+	margin-bottom: .5vh;
+	float: left;
 }
 
 footer h1{
-	font-size: 1.25vw;
+	font-size: 1vw;
 	margin-top: auto;
 	margin-bottom: auto;
-	padding-left: 24vw;
 	padding-top: .25vw;
+	padding-left: 24vw;
 	padding-bottom: 1vh;
+	margin-right: auto;
 
 }
-
-
-
-
 
 
 

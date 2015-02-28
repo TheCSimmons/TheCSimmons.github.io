@@ -1,0 +1,464 @@
+
+
+.gallery {
+	vertical-align: center;
+	width: 70vw;
+	text-align: center;
+	margin-left: 1.5vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.col1{
+	float: left;
+	margin-right: -2vw;
+	margin-left: -2vw;
+}
+
+
+ .col2 {
+ 	position: relative;
+ 	float:  left;
+ 	margin-right: -2vw;
+ }
+
+  .col3 {
+ 	position: relative;
+ 	float:  left;
+ }
+
+
+.img1thumb {
+	width: 7vw;
+	opacity: 1;
+    border: 1px solid black;
+    -webkit-transition: opacity .5s; /* For Safari 3.1 to 6.0 */
+    transition: opacity .5s;
+}
+
+.img1thumb:hover {
+	width: 7vw;
+	opacity: .5;
+	-webkit-transition: opacity .5s; /* For Safari 3.1 to 6.0 */
+    transition: opacity .5s;
+
+}
+
+.img1big {
+	width: 40vw;
+	opacity: 1;
+}
+
+.thumb{
+	width: 15vw;
+}
+.big{ 
+opacity: 0;
+}
+.img1thumb:hover .big{
+opacity : 1;
+}
+
+.display {
+	width: 40vw;
+	height: 40vw;
+	text-align: center;
+	float:right;
+	margin-right: 4vw;
+}
+
+.trigger1 {
+	width: 7vw;
+	height: 7vw;
+	opacity: 1;
+	margin-left: -24.9vw;
+	margin-top: 1.3vw;
+}
+
+.result1 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -8.5vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger1:hover + .result1{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger2 {
+	width: 7vw;
+	height: 7vw;
+	opacity: 1;
+	margin-left: -24.9vw;
+	margin-top: -31vw;
+}
+
+.result2 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -16vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger2:hover + .result2{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger3 {
+	width: 7vw;
+	height: 7vw;
+	opacity: 1;
+	margin-left: -24.9vw;
+	margin-top: -23.5vw;
+}
+
+.result3 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -23.5vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger3:hover + .result3{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger4 {
+	width: 7vw;
+	height: 7vw;;
+	opacity: 1;
+	margin-left: -24.9vw;
+	margin-top: -16vw;
+}
+
+.result4 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -31vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger4:hover + .result4{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger5 {
+	width: 7vw;
+	height: 7vw;
+	margin-left: -24.9vw;
+	margin-top: -8.5vw;
+}
+
+.result5 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -38.5vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger5:hover + .result5{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+/* COLUMN 2 */
+
+.trigger6 {
+	width: 7vw;
+	height: 7vw;
+	margin-left: -17.5vw;
+	margin-top: -38.5vw;
+}
+
+.result6 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -8.5vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger6:hover + .result6{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger7 {
+	width: 7vw;
+	height: 7vw;
+	opacity: 1;
+	margin-left: -17.5vw;
+	margin-top: -31vw;
+}
+
+.result7 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -16vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger7:hover + .result7{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger8 {
+	width: 7vw;
+	height: 7vw;
+	opacity: 1;
+	margin-left: -17.5vw;
+	margin-top: -23.5vw;
+}
+
+.result8 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -23.5vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger8:hover + .result8{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger9 {
+	width: 7vw;
+	height: 7vw;;
+	opacity: 1;
+	margin-left: -17.5vw;
+	margin-top: -16vw;
+}
+
+.result9 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -31vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger9:hover + .result9{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger10 {
+	width: 7vw;
+	height: 7vw;
+	margin-left: -17.5vw;
+	margin-top: -8.5vw;
+}
+
+.result10 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -38.5vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger10:hover + .result10{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+/* COLUMN 3 */
+
+.trigger11 {
+	width: 7vw;
+	height: 7vw;
+	margin-left: -10.1vw;
+	margin-top: -38.5vw;
+}
+
+.result11 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -8.5vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger11:hover + .result11{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger12 {
+	width: 7vw;
+	height: 7vw;
+	opacity: 1;
+	margin-left: -10.1vw;
+	margin-top: -31vw;
+}
+
+.result12 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -16vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger12:hover + .result12{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger13 {
+	width: 7vw;
+	height: 7vw;
+	opacity: 1;
+	margin-left: -10.1vw;
+	margin-top: -23.5vw;
+}
+
+.result13 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -23.5vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger13:hover + .result13{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger14 {
+	width: 7vw;
+	height: 7vw;;
+	opacity: 1;
+	margin-left: -10.1vw;
+	margin-top: -16vw;
+}
+
+.result14 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -31vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger14:hover + .result14{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.trigger15 {
+	width: 7vw;
+	height: 7vw;
+	margin-left: -10.1vw;
+	margin-top: -8.5vw;
+}
+
+.result15 {
+	width: 40vw;
+	height: 40vw;
+	background-size: 40vw;
+	opacity: 0;
+	margin-top: -38.5vw;
+	margin-left: 2vw;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+
+}
+
+.trigger15:hover + .result15{
+	opacity: 1;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+
+
+
+
+
+
+
