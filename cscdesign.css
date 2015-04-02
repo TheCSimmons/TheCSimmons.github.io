@@ -2,30 +2,25 @@ html {
 	background-color: black;
 }
 
-.content {
-	position: fixed; /* or absolute */
-  	top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
+.video{
+	width: 100%;
+	height: 720px;
+	margin-top: 5%;
+	position: relative;
+	text-align: center;
 }
 
 iframe {
 	max-width: 1280px;
 	max-height: 720px;
-	min-width: 80%;
-	position: fixed; /* or absolute */
-  	top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  float: top;
+	margin: auto;
 }
 
 .email {
-	padding-top: 1050px; 
 	margin-right: auto;
 	margin-left: auto;
-	font-size: 1vw;
+	font-size: 20pt;
 	color: white;
 	font-family: 'Josefin Sans';
 	font-weight: 300;
@@ -44,4 +39,52 @@ a {
 
 a:hover {
 	color: #60d9f1;
+}
+
+@media only screen and (max-width: 1279px) {
+	.video{
+		height: 560px;
+	}
+
+	iframe {
+		width: 1000px;
+		height: 560px;
+	 }
+
+@media only screen and (max-width: 999px) {
+	.video {
+		height: 450px;
+	}
+
+	iframe {
+		width: 800px;
+		height: 450px;
+	}
+
+}
+
+@media only screen and (max-width: 799px) {
+	.video {
+		height: 281px;
+	}
+
+	iframe {
+		width: 500px;
+		height: 281px;
+	 }
+}
+
+@media only screen and (max-width: 499px) {
+	.video{
+		height: 113px;
+	}
+
+	iframe {
+		width: 200px;
+		height: 113px;
+	 }
+
+	 .email{
+	 	font-size: 15pt;
+	 }
 }
