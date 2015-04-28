@@ -1,0 +1,54 @@
+body{
+	background: white;
+}
+
+#container {
+	width: 50%;
+	margin: auto auto auto auto;
+	vertical-align: center;
+		text-align: center;
+
+}
+
+img {
+	margin-top:-4px;
+	background:#fff;
+	margin: 5px;
+}
+
+img:hover {
+	box-shadow: 1px 1px 1px 1px #727272; 
+}
+
+#container img {
+	width: 300px;
+	border: solid black 1px;
+}
+
+@media screen and (max-width: 1300px){
+	#container {
+		width: 100%;
+	}
+
+	#container img {
+	width: 200px;
+	border: solid black 1px;
+}
+
+}
+
+@media screen and (max-width: 1300px){
+	#container {
+		width: 100%;
+		vertical-align: center;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#container img {
+	width: 125px;
+	border: solid black 1px;
+}
+
+}
