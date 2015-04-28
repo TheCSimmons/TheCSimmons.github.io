@@ -1,0 +1,496 @@
+html {
+	background-color: white;
+}
+
+body {
+	margin: 0 0 0 0;
+	height: 100%;
+}
+
+.header { 
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	border-bottom: solid 1px white;
+}
+
+
+h1{
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 40pt;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 45px;
+	display: none;
+}
+
+.navlinks {
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 25pt;
+	font-weight: 400;
+	display: inline-block;
+	text-align: center;
+}
+
+.navlinks a{
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #C31D1D;
+}
+
+.firstsection {
+	background-color: none;
+	border: solid none 5px;
+}
+
+.blogpost {
+	width: 55%;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 5px 10px 5px;
+	box-shadow: 0px 1px 2px 1px #727272;
+	margin-bottom: 10px;
+	background-color: black
+}
+
+h2 {
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 24pt;
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	font-family: 'Josefin Slab';
+	font-size: 10pt;
+	letter-spacing: 5px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+p {
+	color: white;
+	font-family: 'Raleway';
+	font-size: 14pt;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.blogimagesingle {
+	width: 100%;
+}
+
+.blogimagedouble1 {
+	width: 49.75%;
+	float: left;
+}
+
+.blogimagedouble2 {
+	width: 49.75%;
+	float: right;
+}
+
+iframe {
+	width: 100%; 
+	height: 720px 
+}
+
+
+
+footertitle {
+	color: black;
+	font-family: 'Montserrat';
+	font-size: 20pt;
+	text-align: center;
+	margin-top: -7px;
+	vertical-align: center;
+}
+
+sociallinks {
+	margin-left: 15px;
+}
+.socialicon {
+	width: 25px;
+	background-color: white;
+	margin-right: 10px;
+	margin-left: 5px;
+	margin-bottom: auto;
+	vertical-align: center;
+	text-align: center;
+}
+
+.socialicon:hover {
+	background-color: #C31D1D;
+}
+
+.formspace {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 30px;
+	max-height: 475px;
+}
+
+.footer {
+	background-color: black;
+	border-top: solid white 1px;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+
+footertitle {
+	color: black;
+	font-family: 'Montserrat';
+	font-size: 20pt;
+	text-align: center;
+	margin-top: -7px;
+	vertical-align: center;
+}
+
+sociallinks {
+	margin-left: 15px;
+}
+.email {
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 20pt;
+	color: black;
+	font-family: 'Josefin Sans';
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.ampersand {
+	position: relative;
+	top: -2px;
+	text-decoration: none;
+}
+
+.emailref{
+	padding-bottom: 2px;
+	color: white;
+}
+
+.until {
+	color: black;
+	font-size: 13pt;
+	font-family: 'Josefin Sans';
+	font-weight: 300;
+	text-align: center;
+}
+
+.socialicon {
+	width: 50px;
+	background-color: white;
+	border: solid white;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+.socialicon:hover {
+	background-color: #C31D1D;
+}
+
+.logocontainer {
+	width: 100%;
+	height: 110px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	margin-top: 70px;
+
+}
+.bottomlogo {
+	width: 100px;
+	margin-top: 30px;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.formtext p, a {
+	color: black;
+	text-align: center;
+}
+
+/*TABLET LANDSCAPE and PORTRAIT*/
+
+@media screen and (max-width: 1024px){
+
+
+	h1 {
+		display: none;
+	}
+
+	.navlinks {
+		font-size: 18pt;
+	}
+
+	.blogpost {
+		width: 95%;
+
+	}
+
+
+}
+
+@media screen and (max-width: 600px){
+
+
+	h1 {
+		display: none;
+	}
+
+	h2 {
+		font-size: 18pt;
+	}
+
+	..navlinks {
+		font-size: 15pt;
+	}
+
+	.navlinks a{
+		color: white;
+		text-decoration: none;
+		margin-left: 5px;
+		margin-right: 5px;
+		font-family: 'raleway'
+	}
+
+	.blogpost {
+		width: 97%;
+
+	}
+
+	iframe {
+		height: 375px;
+	}
+
+
+}
+
+@media screen and (max-width: 350px){
+
+
+	h1 {
+		display: none;
+	}
+
+	h2 {
+		font-size: 18pt;
+	}
+
+	.navlinks {
+		font-size: 5pt;
+	}
+
+	.blogpost {
+		width: 100%;
+
+	}
+
+	iframe {
+		height: 375px;
+	}
+
+
+}
+
+@media screen and (max-width: 1200px){
+	.abouttext {
+		font-size: 15pt;
+	}
+
+
+
+
+
+
+}
+
+/*TABLET LANDSCAPE and PORTRAIT*/
+
+@media screen and (max-width: 1024px){
+
+
+	h1 {
+		display: none;
+	}
+
+	.navlinks {
+		font-size: 18pt;
+	}
+
+	.blogpost {
+		width: 95%;
+
+	}
+
+	.aboutpiccontainer{
+		float: none;
+		vertical-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: auto;
+		padding-right: auto;
+		width: 100%;
+	}
+
+	.aboutpic {
+		vertical-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.abouttextcontainer {
+		float: none;
+		vertical-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 15pt;
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+
+	}
+
+	.abouttext {
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0 20px 0 0;
+		font-size: 25pt;
+		text-align: center;
+	}
+
+
+}
+
+@media screen and (max-width: 600px){
+
+
+	h1 {
+		display: none;
+	}
+
+	h2 {
+		font-size: 18pt;
+	}
+
+	.navlinks {
+		font-size: 15pt;
+	}
+
+	.navlinks a{
+		color: white;
+		text-decoration: none;
+		margin-left: 5px;
+		margin-right: 5px;
+		font-family: 'raleway'
+	}
+
+	.aboutpiccontainer{
+		height: 350px;
+	}
+
+	.aboutpic{
+		padding-top: 50px;
+	}
+
+	.abouttext{
+		padding-top: none;
+
+	}
+	.blogpost {
+		width: 97%;
+
+	}
+
+	iframe {
+		height: 375px;
+	}
+
+	.abouttext {
+		font-size: 15pt;
+	}
+
+
+}
+
+@media screen and (max-width: 350px){
+
+
+	h1 {
+		display: none;
+	}
+
+	.header {
+		height: 20px;
+	}
+
+	h2 {
+		font-size: 18pt;
+	}
+
+	.navlinks {
+		font-size: 5pt;
+	}
+
+	.blogpost {
+		width: 100%;
+
+	}
+
+	iframe {
+		height: 375px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
