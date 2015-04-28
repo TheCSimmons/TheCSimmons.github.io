@@ -2,7 +2,7 @@ jQuery(function(){
 	$(window).scroll(function(){
 		var position =  $(window).scrollTop();
 
-		if ($(window).width() > 1000) {
+		if ($(window).width() > 1024) {
 			//WHEN SCROLL
 		if(position > 1){ 
 
