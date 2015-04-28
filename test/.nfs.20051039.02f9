@@ -19,8 +19,8 @@ jQuery(function(){
 			});
 
 			$('.logosection').stop().animate({
-				'display':'none',
-
+				'text-align': 'left',
+				'height': '190'
 			});
 
 			$('.headertext').stop().animate({
