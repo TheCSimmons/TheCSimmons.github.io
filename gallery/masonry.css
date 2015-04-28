@@ -1,0 +1,23 @@
+body{
+	background: white;
+}
+
+#container {
+	width: 80%;
+	margin: 50px auto 0px auto;
+}
+
+img {
+	margin-top:-4px;
+	background:#fff;
+	margin: 5px;
+}
+
+img:hover {
+	box-shadow: 1px 1px 1px 1px #727272; 
+}
+
+#container img {
+	width: 400px;
+	border: solid black 1px;
+}
