@@ -186,7 +186,15 @@ sociallinks {
 	}
 
 	.navlinks {
-		font-size: 8pt;
+		font-size: 15pt;
+	}
+
+	.navlinks a{
+		color: white;
+		text-decoration: none;
+		margin-left: 5px;
+		margin-right: 5px;
+		font-family: 'raleway'
 	}
 
 	.blogpost {
@@ -213,7 +221,7 @@ sociallinks {
 	}
 
 	.navlinks {
-		font-size: 5pt;
+		font-size: 10pt;
 	}
 
 	.blogpost {
@@ -227,6 +235,7 @@ sociallinks {
 
 
 }
+
 
 
 
