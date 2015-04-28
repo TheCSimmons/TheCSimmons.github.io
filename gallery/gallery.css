@@ -1,0 +1,249 @@
+html {
+	background-color: white;
+}
+
+body {
+	margin: 0 0 0 0;
+	height: 100%;
+}
+
+.header { 
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	border-bottom: solid 1px white;
+	z-index: 1;
+}
+
+
+h1{
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 40pt;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 45px;
+	display: none;
+}
+
+.navlinks {
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 25pt;
+	font-weight: 400;
+	display: inline-block;
+	text-align: center;
+}
+
+.navlinks a{
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #C31D1D;
+}
+
+.firstsection {
+	background-color: none;
+	border: solid none 5px;
+}
+
+.blogpost {
+	width: 55%;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 5px 10px 5px;
+	box-shadow: 0px 1px 2px 1px #727272;
+	margin-bottom: 10px;
+	background-color: black
+}
+
+h2 {
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 24pt;
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	font-family: 'Josefin Slab';
+	font-size: 10pt;
+	letter-spacing: 5px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+p {
+	color: white;
+	font-family: 'Raleway';
+	font-size: 14pt;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.blogimagesingle {
+	width: 100%;
+}
+
+.blogimagedouble1 {
+	width: 49.75%;
+	float: left;
+}
+
+.blogimagedouble2 {
+	width: 49.75%;
+	float: right;
+}
+
+iframe {
+	width: 100%; 
+	height: 720px 
+}
+
+
+.footer {
+	background-color: black;
+	border-top: solid white 1px;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+
+footertitle {
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 20pt;
+	text-align: center;
+	margin-top: -7px;
+	vertical-align: center;
+}
+
+sociallinks {
+	margin-left: 15px;
+}
+.socialicon {
+	width: 25px;
+	background-color: white;
+	margin-right: 10px;
+	margin-left: 5px;
+	margin-bottom: auto;
+	vertical-align: center;
+	text-align: center;
+}
+
+.socialicon:hover {
+	background-color: #C31D1D;
+}
+
+
+
+
+
+
+/*TABLET LANDSCAPE and PORTRAIT*/
+
+@media screen and (max-width: 1024px){
+
+
+	h1 {
+		display: none;
+	}
+
+	.navlinks {
+		font-size: 18pt;
+	}
+
+	.blogpost {
+		width: 95%;
+
+	}
+
+
+}
+
+@media screen and (max-width: 600px){
+
+
+	h1 {
+		display: none;
+	}
+
+	h2 {
+		font-size: 18pt;
+	}
+
+	.navlinks {
+		font-size: 8pt;
+	}
+
+	.blogpost {
+		width: 97%;
+
+	}
+
+	iframe {
+		height: 375px;
+	}
+
+
+}
+
+@media screen and (max-width: 350px){
+
+
+	h1 {
+		display: none;
+	}
+
+	h2 {
+		font-size: 18pt;
+	}
+
+	.navlinks {
+		font-size: 5pt;
+	}
+
+	.blogpost {
+		width: 100%;
+
+	}
+
+	iframe {
+		height: 375px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
