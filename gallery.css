@@ -94,6 +94,10 @@ p {
 
 }
 
+.avoidclicks {
+	pointer-events: none;
+}
+
 .blogimagesingle {
 	width: 100%;
 }
