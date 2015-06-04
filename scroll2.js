@@ -4,10 +4,11 @@ jQuery(function(){
 
 		if ($(window).width() > 1024) {
 			//WHEN SCROLL
-		if(position > 1){ 
+		if(position > 0){ 
 
 			$('.header').stop().animate({
-				'height': '40'
+				'height': '40',
+				'duration': '1200'
 			});
 
 			$('a').stop().animate({
@@ -26,7 +27,8 @@ jQuery(function(){
 		else{
 
 			$('.header').stop().animate({
-				'height': '310'
+				'height': '310',
+				'duration': '1200'
 			});
 
 			$('h1').stop().css("display", "block").animate({
