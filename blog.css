@@ -119,7 +119,14 @@ a:hover{
 	color: #C31D1D;
 }
 
+.archbody a {
+	color: black;
+}
 
+.archbody a:hover {
+	text-decoration: underline;
+	color: #C31D1D;
+}
 
 h2 {
 	color: black;
