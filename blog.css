@@ -285,6 +285,10 @@ sociallinks {
 
 	}
 
+       .archpost {
+              width: 97%;
+        }
+
 	iframe {
 		height: 375px;
 	}
