@@ -96,6 +96,10 @@ a:hover{
 	background-color: #E6E6E6;
 }
 
+.archpost p {
+	text-align: center;
+}
+
 .archlink {
 	width: 45%;
 	vertical-align: center;
