@@ -50,6 +50,16 @@ a:hover{
 	color: #C31D1D;
 }
 
+.blogpost a {
+	color: black;
+}
+
+.blogpost a:hover{
+	text-decoration: underline;
+	color: #C31D1D;
+
+}
+
 .firstsection {
 	background-color: none;
 	border: solid none 5px;
@@ -64,6 +74,51 @@ a:hover{
 	margin-bottom: 10px;
 	background-color: white;
 }
+
+.archtitles {
+	width: 45%;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 5px 10px 5px;
+	margin-bottom: 10px;
+	background-color: white;
+	font-size: 36pt;
+}
+
+.archpost {
+	width: 45%;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 5px 10px 5px;
+	margin-bottom: 10px;
+	background-color: #E6E6E6;
+}
+
+.archlink {
+	width: 45%;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 5px 10px 5px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+.archlink h3 {
+	font-style: italic;
+}
+
+.archlink a {
+	color: black;
+}
+
+.archlink a:hover {
+	text-decoration: underline;
+	color: #C31D1D;
+}
+
 
 h2 {
 	color: black;
@@ -92,8 +147,26 @@ p {
 
 }
 
+.tutfoot {
+	font-style: italic;
+	text-align: center;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+	padding-bottom: 5px;
+	margin-top: 15px;
+}
+
 .blogimagesingle {
 	width: 100%;
+}
+
+
+.blogimage50 {
+	width: 50%;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .blogimagedouble1 {

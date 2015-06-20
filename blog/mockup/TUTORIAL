@@ -1,4 +1,4 @@
-TUTORIAL: USING SMART OBJECTS TO CREATE MOCKUPS<br>IN PHOTOSHOP
+TUTORIAL: USING SMART OBJECTS TO CREATE MOCKUPS IN PHOTOSHOP
 
 JUNE NINETEENTH, TWENTY FIFTEEN
 
@@ -28,5 +28,50 @@ In case you haven't figure it out, we're going to draw a box or object over the 
 
 <img src="blog/mockup/3.png">
 
+After you've got your rectangle drawn, you're going to head over to the layers menu and left (or command) click the layer that is your shape. You will select "Convert to Smart Object."
 
+<img src="blog/mockup/4.png">
 
+Once you've got your smart object officially created, you're going to tweak it to fit whatever it is you're trying to mock up. For this example, I was able to do it with a simple "Skew."
+
+<img src="blog/mockup/5.png">
+<img src="blog/mockup/6.png">
+<img src="blog/mockup/7.png">
+
+After you've done all of that, it should look something like this:
+
+<img src="blog/mockup/8.png">
+
+Here's where the magic happens! Left click your smart object layer, and select "Edit Contents."
+
+<img src="blog/mockup/9.png">
+
+Thats going to open up a new canvas, which should look like this.
+
+<img src="blog/mockup/10.png">
+
+So, in very general terms, when you create a Smart Object, you're essentially creating a canvas on top of your canvas. Or something.
+
+Anyway, at this point, you're going to paste, place, or embed whatever it is you want to use for your mockup. Make sure to turn off the layer that has the border from your shape, if you have one.
+
+<img src="blog/mockup/11.png">
+
+You'll save this canvas, and go back to your original mock up. I'm not sure why, but I took a picture of this when I did it, so I might as well use it I guess.
+
+<img src="blog/mockup/12.png">
+
+Ka-ching! Look at that wonderfulness! You've got yourself a pretty decent mock up, friend.
+
+<img src="blog/mockup/13.png">
+
+If your screen has any sort of glare, go ahead and recreate it, if possible. Even if you don't, you've got a mock up good enough to send most clients to give them some contextual ideas.
+
+<img src="blog/mockup/14.png">
+
+The best part? You can just save this, and swap out the contents of your smart object any time you need to mock something up. Seriously! Its that easy! And it makes pretty much anything you do look a KAJILLION times better.
+
+Thats how you use a Smart Object in Photoshop to create a mock up template that you'll be able to use to look like a freaking pro whenever you need to.
+
+Use this power responsibly! I know I try to...
+
+<img src="blog/mockup/shuffle.gif">
