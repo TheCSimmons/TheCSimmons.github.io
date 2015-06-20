@@ -119,6 +119,9 @@ a:hover{
 	color: #C31D1D;
 }
 
+.archbody a:hover {
+	border: solid 1px black;
+}
 
 h2 {
 	color: black;
