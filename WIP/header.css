@@ -1,5 +1,5 @@
 .header {
-	height: 60px;
+	height: 40px;
 	width: 100%;
 	margin: 0 0 0 0;
 	background-color: black;
@@ -7,52 +7,52 @@
 }
 
 .logocontainer {
-	height: 60px;
+	height: 40px;
 	width: 100px;
 	background-color: black;
 	float: left;
 }
 
 .logo {
-	height: 48px;
+	height: 32px;
 	float: left;
 	vertical-align: middle;
-	margin-top: 6px;
+	margin-top: 4px;
 	margin-bottom: 6px;
-	margin-left: 50px;
+	margin-left: 73px;
 }
 
 .cscdesign {
 	font-family: "Montserrat";
 	font-weight: 400;
-	font-size: 40pt;
+	font-size: 27pt;
 	float: left;
-	margin-top: -5px;
-	margin-left: 3px;
-	margin-right: 2px;
+	margin-top: -3px;
+	margin-left: 10px;
+	margin-right: 10px;
 	margin-bottom: 1px;
 	background-color: white;
-	padding-left: 4px;
-	padding-right: 3px;
+	padding-left: 6px;
+	padding-right: 5px;
 	padding-bottom: 1px;
 }
 
 .navbar {
 	background-color: black;
 	float: left;
-	height: 60px;
-	padding-left: 8px;
+	height: 40px;
+	padding-left: 0px;
 }
 
 .navbar p {
 	color: white;
 	font-family: "Montserrat";
 	font-weight: 400;
-	font-size: 15pt;
+	font-size: 10pt;
 	float: left;
 	letter-spacing: 2px;
 	margin-right: 2.5vw;
-	margin-top: 17px;
+	margin-top: 12spx;
 	border-bottom: 0;
 	transition: border-bottom .5s ease;
 }
