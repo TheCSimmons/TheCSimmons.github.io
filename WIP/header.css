@@ -41,7 +41,9 @@
 	background-color: black;
 	float: left;
 	height: 40px;
+	width: 450px;
 	padding-left: 0px;
+	margin-top: -40px;
 }
 
 .navbar p {
@@ -51,12 +53,32 @@
 	font-size: 10pt;
 	float: left;
 	letter-spacing: 2px;
-	margin-right: 2.5vw;
+	margin-right: 25px;
 	margin-top: 12spx;
 	border-bottom: 0;
-	transition: border-bottom .5s ease;
+	transition: border .5s ease;
 }
 
 .navbar p:hover {
 	border-bottom: solid white 1px;
-	transition: border-bottom .5s ease;
+	transition: border .5s ease;
+}
+
+@media screen and (max-width: 775px){
+	.navbar { 
+		margin-top: 0;
+		margin-left: -100px;
+		float: none;
+
+	}
+	.navbar p {
+		float: left;
+		margin-left: 10px;
+		margin-right: 10px;
+		color: white;
+	}
+
+
+
+}
+
