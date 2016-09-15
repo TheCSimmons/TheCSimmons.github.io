@@ -1,0 +1,126 @@
+html {
+
+}
+
+body {
+	margin: 0,0,0,0;
+}
+
+.nav {
+	width: 100%;
+	background-color: none;
+	text-align: left;
+	margin-bottom: 0;
+	margin-left: 20px;
+
+
+}
+
+h1 {
+	color: black;
+	font-family: 'Oswald';
+	font-weight: 300;
+	font-size: 20pt;
+	letter-spacing: 3px;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0);
+	margin-bottom: 0;
+	float: left;
+	transition: text-shadow .5s;
+
+}
+
+h1:hover {
+		text-shadow: 0px 0px 30px rgba(0,0,0,.7);
+}
+
+.design {
+	font-weight: 400;
+	padding-left: 5px;
+}
+
+.vertbar {
+	padding-left: 5px;
+	font-weight: 400;
+}
+
+p {
+	color: black;
+	font-family: 'Archivo Narrow';
+	font-weight: 400;
+	font-size: 12pt;
+	letter-spacing: 5px;
+
+	float: right;
+	margin-right: 20px;
+	margin-top: 6px;
+	transition: text-shadow .5s;
+
+
+
+}
+
+p a{
+	transition: text-shadow .5s;
+	text-shadow: 0px 0px 20px rgba(0,0,0,0);
+}
+
+p a:hover{
+	text-shadow: 0px 0px 20px rgba(0,0,0,.9);
+}
+
+p .vertbar {
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: 400;
+	font-size: 20pt;
+	line-height: 200%;
+	color: rgba(0,0,0,0);
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+br {
+	display: none;
+}
+
+.logocontainer {
+	width:100px;
+	height: 100px;
+	position: fixed;
+	bottom:35px;
+    left:20px;
+
+}
+
+.logo {
+	max-width: 99px;
+    
+}
+
+
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
