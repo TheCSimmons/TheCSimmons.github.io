@@ -149,13 +149,27 @@ br {
 @media screen and (max-width: 550px) {
 	.nav {
 		margin-left: auto;
-		margin-right: auto;
+		margin-right: 0px;
 		width: 370px;
 	}
 
 	p { 
 		margin-right: 0;
-		
+
+	}
+
+}
+
+@media screen and (max-width: 376px) {
+	.nav {
+		margin-left: auto;
+		margin-right: auto;
+		width: 338px;
+	}
+
+	p { 
+		margin-right: 0;
+
 	}
 
 }
