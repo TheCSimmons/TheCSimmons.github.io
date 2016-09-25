@@ -34,6 +34,26 @@ p .umph {
 
 }
 
+.social {
+	width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	float: right;
+	vertical-align: center;
+}
+
+.social .icons {
+	width: 45px;
+	background-color: white;
+	transition: background-color .5s;
+}
+
+.social .icons:hover{
+	background: rgba(0,0,0,.3);
+	transition: background-color .5s;
+}
+
 @media screen and (max-width: 1400px) {
 	.content {
 		margin-top: 60px;
