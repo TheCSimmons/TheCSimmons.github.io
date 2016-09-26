@@ -7,54 +7,6 @@ body {
 	height: 100%;
 }
 
-.header { 
-	background-color: black;
-	position: fixed;
-	width: 100%;
-	text-align: center;
-	border-bottom: solid 1px white;
-}
-
-
-h1{
-	color: white;
-	font-family: 'Montserrat';
-	font-size: 40pt;
-	text-align: center;
-	margin-bottom: 0;
-	margin-top: 45px;
-	display: none;
-}
-
-.navlinks {
-	color: white;
-	font-family: 'Montserrat';
-	font-size: 25pt;
-	font-weight: 400;
-	display: inline-block;
-	text-align: center;
-}
-
-.navlinks a{
-	color: white;
-	text-decoration: none;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-a{
-	color: white;
-}
-
-a:hover{
-	text-decoration: underline;
-	color: #C31D1D;
-}
-
-.firstsection {
-	background-color: none;
-	border: solid none 5px;
-}
 
 .blogpost {
 	width: 55%;
@@ -188,7 +140,6 @@ sociallinks {
 
 .emailref{
 	padding-bottom: 2px;
-	color: white;
 }
 
 .until {
@@ -210,9 +161,7 @@ sociallinks {
 
 }
 
-.socialicon:hover {
-	background-color: #C31D1D;
-}
+
 
 .logocontainer {
 	width: 100%;
@@ -235,10 +184,17 @@ sociallinks {
 	margin-left: auto;
 }
 
+.formtext {
+	margin-right: auto;
+	margin-left: auto;
+}
+
 
 .formtext p, a {
 	color: black;
 	text-align: center;
+	margin-top: 120px;
+	letter-spacing: 0;
 }
 
 /*TABLET LANDSCAPE and PORTRAIT*/
@@ -246,9 +202,6 @@ sociallinks {
 @media screen and (max-width: 1024px){
 
 
-	h1 {
-		display: none;
-	}
 
 	.navlinks {
 		font-size: 18pt;
@@ -265,9 +218,7 @@ sociallinks {
 @media screen and (max-width: 600px){
 
 
-	h1 {
-		display: none;
-	}
+
 
 	h2 {
 		font-size: 18pt;
@@ -300,9 +251,7 @@ sociallinks {
 @media screen and (max-width: 350px){
 
 
-	h1 {
-		display: none;
-	}
+
 
 	h2 {
 		font-size: 18pt;
@@ -341,9 +290,6 @@ sociallinks {
 @media screen and (max-width: 1024px){
 
 
-	h1 {
-		display: none;
-	}
 
 	.navlinks {
 		font-size: 18pt;
@@ -396,9 +342,6 @@ sociallinks {
 @media screen and (max-width: 600px){
 
 
-	h1 {
-		display: none;
-	}
 
 	h2 {
 		font-size: 18pt;
@@ -447,9 +390,6 @@ sociallinks {
 @media screen and (max-width: 350px){
 
 
-	h1 {
-		display: none;
-	}
 
 	.header {
 		height: 20px;
