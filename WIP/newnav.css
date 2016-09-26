@@ -152,10 +152,14 @@ br {
 		margin-left: auto;
 		margin-right: auto;
 		width: 341px;
+		display: inline;
+		text-align: center;
 	}
 
 	p { 
 		margin-right: 0;
+
+
 
 	}
 
@@ -168,8 +172,13 @@ br {
 		width: 341px;
 	}
 
+	h1 {
+		font-size: 14pt;
+	}
+
 	p { 
 		margin-right: 0;
+		font-size: 8pt;
 
 	}
 
