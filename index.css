@@ -1,396 +1,268 @@
 html {
-	background-color: black;
+	background: url(mebw.croplong.jpg) no-repeat left center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 
 body {
-	margin: 0 0 0 0;
-	height: 100%;
+	margin: 0,0,0,0;
 }
 
-.header { 
-	background-color: black;
-	position: fixed;
-	width: 100%;
-	text-align: center;
-	border-bottom: solid 1px white;
-}
-
-
-h1{
-	color: white;
-	font-family: 'Montserrat';
-	font-size: 40pt;
+.nav {
+	width: 40%;
+	background-color: none;
 	text-align: center;
 	margin-bottom: 0;
-	margin-top: 45px;
-	display: none;
+	float: right;
+	display: block;
+	padding-top: 40vh;
+	padding-right: 4vw;
+
 }
 
-.navlinks {
-	color: white;
-	font-family: 'Montserrat';
+h1 {
+	color: black;
+	font-family: 'Oswald';
+	font-weight: 300;
 	font-size: 25pt;
-	font-weight: 400;
-	display: inline-block;
-	text-align: center;
-}
-
-.navlinks a{
-	color: white;
-	text-decoration: none;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-a{
-	color: white;
-}
-
-a:hover{
-	text-decoration: underline;
-	color: #C31D1D;
-}
-
-.firstsection {
-	background-color: none;
-	border: solid none 5px;
-}
-
-.blogpost {
-	width: 55%;
-	vertical-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px 5px 10px 5px;
-	box-shadow: 0px 1px 2px 1px #727272;
-	margin-bottom: 10px;
-	background-color: black
+	letter-spacing: 3px;
+	text-shadow: 0px 0px 20px rgba(0,0,0,.4);
+	margin-bottom: 0;
+	width: 750px;
 }
 
 h2 {
-	color: white;
-	font-family: 'Montserrat';
-	font-size: 24pt;
-	text-align: center;
+	color: black;
+	font-family: 'Raleway';
+	font-weight: light 300;
+	font-size: 18pt;
+	text-align: justify;
+	margin-bottom: 15px;
+	width: 750px;
 }
 
-h3 {
-	color: white;
-	font-family: 'Josefin Slab';
-	font-size: 10pt;
-	letter-spacing: 5px;
-	font-weight: 300;
-	text-align: center;
-	margin-bottom: 35px;
+.design {
+	font-weight: 400;
+	padding-left: 5px;
+}
+
+.vertbar {
+	padding-left: 5px;
+	font-weight: 400;
 }
 
 p {
-	color: white;
-	font-family: 'Raleway';
-	font-size: 14pt;
-	padding-left: 15px;
-	padding-right: 15px;
+	color: black;
+	font-family: 'Archivo Narrow';
+	font-weight: 400;
+	font-size: 18pt;
+	letter-spacing: 5px;
+	margin-top: 5px;
+	border-top: solid 2px black;
+	width: 750px;
+	text-shadow: 0px 0px 20px rgba(0,0,0,.2);
 
 }
 
-.blogimagesingle {
-	width: 100%;
-}
-
-.blogimagedouble1 {
-	width: 49.75%;
-	float: left;
-}
-
-.blogimagedouble2 {
-	width: 49.75%;
-	float: right;
-}
-
-iframe {
-	width: 100%; 
-	height: 720px;
-	border-bottom: solid white 1px;
-}
-
-.aboutpiccontainer {
-  height: 700px;
-  width: 38%;
-  background-color: none;
-  margin-top: 0;
-  display: inline-block;
-  float: left;
-  text-align: center;
-}
-
-.aboutpic {
-  width: 70%;
-  vertical-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 100px;
-  margin-bottom: auto;
-}
-
-.abouttextcontainer {
-  height: 700px;
-  width: 62%;
-  background-color: none;
-  margin-top: 0;
-  display: inline-block;
-  float: left;
-}
-
-.abouttext {
-  font-family: 'raleway';
-  font-weight: 100;
-  font-size: 25pt;
-  font-weight: 300;
-  padding-left: 10px;
-  padding-right: 30px;
-  padding-top: 50px;
-}
-
-
-.footer {
-	background-color: black;
-	border-top: solid white 1px;
-	width: 100%;
-	height: 40px;
-	text-align: center;
-}
-
-footertitle {
-	color: white;
-	font-family: 'Montserrat';
+p .vertbar {
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 5px;
+	font-weight: 400;
 	font-size: 20pt;
-	text-align: center;
-	margin-top: -7px;
-	vertical-align: center;
+	line-height: 200%;
+	color: rgba(0,0,0,0);
+
 }
 
-sociallinks {
-	margin-left: 15px;
-}
-.email {
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 20pt;
-	color: white;
-	font-family: 'Josefin Sans';
-	font-weight: 300;
-	text-align: center;
+a {
 	text-decoration: none;
-
+	color: black;
+	transition: color .5s;
 }
 
-.ampersand {
-	position: relative;
-	top: -2px;
-	text-decoration: none;
+a:hover {
+	color: #cc0000;
 }
 
-.emailref{
-	padding-bottom: 2px;
-	color: white;
-}
-
-.until {
-	color: white;
-	font-size: 13pt;
-	font-family: 'Josefin Sans';
-	font-weight: 300;
-	text-align: center;
-}
-
-.socialicon {
-	width: 50px;
-	background-color: white;
-	border: solid white;
-	margin-right: 3px;
-	margin-left: 3px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-
-}
-
-.socialicon:hover {
-	background-color: #C31D1D;
+br {
+	display: none;
 }
 
 .logocontainer {
-	width: 100%;
-	height: 110px;
-	display: inline-block;
-	vertical-align: middle;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 30px;
-	margin-top: 300px;
+	width:100px;
+	height: 100px;
+	position: fixed;
+	bottom:35px;
+    left:20px;
 
 }
-.bottomlogo {
-	width: 100px;
-	margin-top: 30px;
-	vertical-align: middle;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
+
+.logo {
+	max-width: 99px;
+    
 }
 
 
+@media screen and (max-width: 2110px) {
 
-@media screen and (max-width: 1800px){
-	.abouttext {
+	.nav {
+		width: 45%;
+	}
+
+}
+
+@media screen and (max-width: 1710px) {
+
+	.nav {
+		width: 42%;
+	}
+
+	h1 {
+		color: black;
+		font-family: 'Oswald';
+		font-weight: 300;
 		font-size: 20pt;
+		letter-spacing: 3px;
+		text-shadow: 0px 0px 20px rgba(0,0,0,.4);
+		margin-bottom: 15px;
+		width: 600px;
 	}
 
+	p {
+		color: black;
+		font-family: 'Archivo Narrow';
+		font-weight: 400;
+		font-size: 13pt;
+		letter-spacing: 5px;
+		margin-top: 5px;
+		border-top: solid 2px black;
+		width: 600px;
+		text-shadow: 0px 0px 20px rgba(0,0,0,.2);
 
+	}
 
+}
 
+@media screen and (max-width: 1400px) {
+
+	html {
+		background: url(mebw.crophalfbig.jpg) no-repeat bottom center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover; 
+
+	}
+
+	.nav {
+		float: none;
+		vertical-align: middle;
+		margin-right: auto;	
+		margin-left: auto;
+		display: inline;
+		padding-right: 0;
+		padding-top: 55px;
+	}
+
+	h1 {
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 250px;
+	}
+
+	p{
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.logocontainer {
+		display: none;
+
+	}
 
 
 }
 
-/*TABLET LANDSCAPE and PORTRAIT*/
+@media screen and (max-width: 1400px) and (max-height: 900px) {
+	h1{
+		padding-top: 15vh;
+	}
 
-@media screen and (max-width: 1024px){
+}
 
+@media screen and (max-width: 750px) {
+
+	p.vertbar {
+		display: none;
+
+	}
 
 	h1 {
+		width: 500px;
+	}
+
+	p {
+		width: 500px;
+		font-size: 15pt;
+		letter-spacing: unset;
+	}
+
+}
+
+@media screen and (max-width: 650px) {
+
+	p.vertbar {
 		display: none;
+
 	}
 
-	.navlinks {
-		font-size: 18pt;
+	h1 {
+		width: 500px;
 	}
 
-	.blogpost {
+	p {
+		width: 500px;
+		font-size: 15pt;
+		letter-spacing: unset;
+	}
+
+}
+
+
+@media screen and (max-width: 550px) {
+	h1 {
+		width: 350px;
+	}
+
+	p {
+		width: 350px;
+		font-size: 12pt;
+
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+	h1 {
 		width: 95%;
+		font-size: 12pt;
+		padding-top: 20px;
 
 	}
 
-	.aboutpiccontainer{
-		float: none;
-		vertical-align: center;
-		margin-right: auto;
-		margin-left: auto;
-		padding-left: auto;
-		padding-right: auto;
-		width: 100%;
-	}
-
-	.aboutpic {
-		vertical-align: center;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
-	.abouttextcontainer {
-		float: none;
-		vertical-align: center;
-		margin-right: auto;
-		margin-left: auto;
-		font-size: 15pt;
-		width: 100%;
-		padding-left: 10px;
-		padding-right: 10px;
+	p {
+		width: 95%;
+		font-size: 9pt;
+		margin-top: 0;
+		letter-spacing: unset;
 
 	}
-
-	.abouttext {
-		margin-right: auto;
-		margin-left: auto;
-		padding: 0 20px 0 0;
-		font-size: 25pt;
-		text-align: center;
-	}
-
 
 }
 
-@media screen and (max-width: 600px){
-
-
-	h1 {
-		display: none;
-	}
-
-	h2 {
-		font-size: 18pt;
-	}
-
-	.navlinks {
-		font-size: 15pt;
-	}
-
-	.navlinks a{
-		color: white;
-		text-decoration: none;
-		margin-left: 5px;
-		margin-right: 5px;
-		font-family: 'raleway'
-	}
-
-	.aboutpiccontainer{
-		height: 350px;
-	}
-
-	.aboutpic{
-		padding-top: 50px;
-	}
-
-	.abouttext{
-		padding-top: none;
-
-	}
-	.blogpost {
-		width: 97%;
-
-	}
-
-	iframe {
-		height: 375px;
-	}
-
-	.abouttext {
-		font-size: 15pt;
-	}
-
-
-}
-
-@media screen and (max-width: 350px){
-
-
-	h1 {
-		display: none;
-	}
-
-	.header {
-		height: 20px;
-	}
-
-	h2 {
-		font-size: 18pt;
-	}
-
-	.navlinks {
-		font-size: 5pt;
-	}
-
-	.blogpost {
-		width: 100%;
-
-	}
-
-	iframe {
-		height: 375px;
-	}
-
-
-}
 
 
 
