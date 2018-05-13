@@ -509,12 +509,3 @@ iframe {
 		height: 115px;
 	}
 }
-
-@media screen and (max-height: 1180px) {
-	body {
-		margin-top: .5vh;
-		margin-bottom: auto;
-		max-height: 1180px;
-		background-color: red;
-	}
-}
