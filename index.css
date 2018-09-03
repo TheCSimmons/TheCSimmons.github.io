@@ -417,6 +417,14 @@ iframe {
 	text-align: center;
 }
 
+@media screen and (max-width: 2550px) {
+	html {
+		zoom:50%;
+		width: 650px;
+		margin-left: 18%;
+	}
+}
+
 @media screen and (max-width: 650px) {
 	.info {
 		width: 500px;
@@ -508,4 +516,11 @@ iframe {
 		width: 115px;
 		height: 115px;
 	}
+}
+
+@media screen and (max-height: 1100px) {
+	html {
+   		transform: scale(2.5);
+   		transform-origin: 0 0;
+   	}
 }
