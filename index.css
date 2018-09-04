@@ -417,14 +417,6 @@ iframe {
 	text-align: center;
 }
 
-@media screen and (max-width: 2550px) {
-	html {
-		zoom:50%;
-		width: 650px;
-		margin-left: 18%;
-	}
-}
-
 @media screen and (max-width: 650px) {
 	.info {
 		width: 500px;
