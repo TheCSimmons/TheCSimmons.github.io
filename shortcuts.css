@@ -1,7 +1,6 @@
 html {
 	background-color: #1d1d1d;
 }
-
 .shortcuts { 
 	width: 700px; 
 	height: 525px;
@@ -11,7 +10,6 @@ html {
     left: 0;
     right: 0;
     margin: auto;
-
 }
 .icons { 
 	width:100px; 
@@ -21,17 +19,16 @@ html {
 	 background-color: none; 
 	 box-shadow: none;  
 }
-
 .icons:hover{
 	background-color: white;
 	transition: background-color .3s;
 	box-shadow: 0px -2px 20px rgba(255,255,255,.5);
 	transition: box-shadow .1s;
 }
-
 .mobilebreak {
 	display: none;
 }
+
 @media screen and (max-width: 750px) {
 	.shortcuts {
 		width: 400px;
